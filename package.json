@@ -1,0 +1,14 @@
+{
+  "name": "gladys-hue",
+  "version": "1.0.0",
+  "description": "Gladys hooks for controlling Philips Hue.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pierre-Gilles Leymarie",
+  "license": "CC-BY-NC-SA-3.0",
+  "dependencies": {
+    "node-hue-api": "^2.2.0"
+  }
+}
