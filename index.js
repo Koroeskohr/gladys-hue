@@ -10,12 +10,12 @@ module.exports = function(sails) {
     });
     
     var search = require('./lib/search.js');
-    var connect = require('./lib/connect.js');
+    var register = require('./lib/register.js');
     var exec = require('./lib/exec.js');
     
     return {
         search: search,
-        connect: connect,
+        register: register,
         exec: exec,
         initialize: function(next){
             loader.injectControllers( __dirname + '/api/controllers', function(err){

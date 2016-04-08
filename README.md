@@ -18,12 +18,14 @@ gladys.modules.hue.search()
   });
 ```
 
-### connect
+### register
 
-Connect to a given bridge. You need to press the button on your Philips Hue bridge just before calling this function.
+Connect to a given bridge. 
+You need to press the button on your Philips Hue bridge just before calling this function.
+This function need to be called only once, then the identifier are saved in Gladys param table.
 
 ```javascript
-gladys.modules.hue.connect({ipaddress: '192.168.1.1'})
+gladys.modules.hue.register({ipaddress: '192.168.1.1'})
   .then(function(){
 
   })
