@@ -6,20 +6,15 @@ Need Gladys version >= 3.0.0.
 
 ## Documentation
 
+To install this module : 
 
-### config
+- Install the module in Gladys
+- Reboot Gladys
+- Press the button on your Philips Hue bridge.
+- Go on the dashboard on "Module" view, then in the module list press the "config" button.
 
-Connect to a given bridge and add lamps to Gladys device system. 
-You need to press the button on your Philips Hue bridge just before calling this function.
-This function need to be called only once, then the identifier are saved in Gladys param table.
+Be careful, click only once on this button !
 
-```javascript
-gladys.modules.hue.config()
-  .then(function(){
+Then to be sure that it worked, go to "Devices", and see if you lamps are in the list.
 
-  })
-  .catch(function(err){
-     // you forgot to press the button...
-     // or bridge is not responding
-  });
-```
+If not, press the button again on the bridge, and click again on "configure".

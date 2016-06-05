@@ -1,6 +1,6 @@
 {
   "name": "gladys-hue",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Gladys hooks for controlling Philips Hue.",
   "main": "index.js",
   "scripts": {
