@@ -8,7 +8,7 @@ module.exports = function(sails) {
     var setup = require('./lib/setup.js');
     var getScene = require('./lib/getScene.js');
     var activateScene = require('./lib/activateScene.js');
-	var update = require('./lib/update.js');
+    var update = require('./lib/update.js');
     
     return {
         search,
@@ -17,7 +17,7 @@ module.exports = function(sails) {
         setup,
         getScene,
         activateScene,
-		update
+        update
 		
     };
 };
